@@ -9,20 +9,18 @@
 Pod::Spec.new do |s|
   s.name = "InternalWeChatSDK"
   s.version = "0.0.2"
-  s.summary = "A short description of InternalWeChatSDK."
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary = "Internal redistribution of WeChat SDK, InternalWeChatSDK."
   s.description = <<-DESC
+  There is not official WeChatSDK CocoaPods distribution.
+  We used to push binary files into the repo, now we have moved
+  all binaries to our Nexus repo or to CocoaPods, Nexus is preferred.
                    DESC
 
   s.license = "Internal Use Only"
 
   s.author = {"Hovhannes Safaryan" => "hov@picsart.com"}
   s.platform = :ios
+  s.homepage = "https://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/docs/mobile/getting-started/ios"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
